@@ -1,34 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>BNKY</title>
-	<style>
-		body {
-			font-family: sans-serif;
-			margin: 0;
-		}
-		header {			
-			padding: 69px 0px;
-			background-color: silver;		
-		}
-		.header-text {
-			text-align: center;
-		}
-		h1 {		
-   			font-size: 7em;
-			margin-top: 0;
-			margin-bottom: -33px;
+<html>
 
-		}
-	</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Bengky - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	<header>
-		<div class="header-text">
-			<h1>Hello World!</h1>
-			<h2>Lorem Ipsum Dolor Sit Amet</h2>
-		</div>	
-	</header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#intro">Bengky</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--end Nav-->
+    <div class="jumbotron" id="intro">
+        <div class="container">
+            <h1><strong>Bengky</strong></h1>
+            <h2>Graphic Designer</h2>
+        </div>
+    </div>
+    <div class="container-fluid" id="portfolio">
+        <div class="container">
+            <h2><strong>Portfolio</strong></h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a href="http://orig11.deviantart.net/8a16/f/2014/334/c/b/cb5a43d585987b189e7b83e21eea7ee6-d88ad5k.jpg" target="_blank"><img src="http://orig11.deviantart.net/8a16/f/2014/334/c/b/cb5a43d585987b189e7b83e21eea7ee6-d88ad5k.jpg" alt="" class="img-responsive img-rounded center-block" /></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="http://orig12.deviantart.net/245d/f/2013/293/1/6/shiny_metal_bender_by_bnky-d6r657y.jpg" target="_blank"><img src="http://orig12.deviantart.net/245d/f/2013/293/1/6/shiny_metal_bender_by_bnky-d6r657y.jpg" alt="" class="img-responsive img-rounded center-block" /></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="http://orig00.deviantart.net/495a/f/2016/168/6/7/67ddffef43580f6cfa63617f38436a01-da6jzvz.jpg" target="_blank"><img src="http://orig00.deviantart.net/495a/f/2016/168/6/7/67ddffef43580f6cfa63617f38436a01-da6jzvz.jpg" alt="" class="img-responsive img-rounded center-block" /></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="http://orig09.deviantart.net/6e6d/f/2014/287/d/c/dce7c1e7348182f6c8e8fe11f53527ef-d82vcs5.jpg" target="_blank"><img src="http://orig09.deviantart.net/6e6d/f/2014/287/d/c/dce7c1e7348182f6c8e8fe11f53527ef-d82vcs5.jpg" alt="" class="img-responsive img-rounded center-block" /></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="http://orig14.deviantart.net/ed7a/f/2015/070/8/9/chocobo_racer_by_bnky-d8ldf6t.jpg" target="_blank"><img src="http://orig14.deviantart.net/ed7a/f/2015/070/8/9/chocobo_racer_by_bnky-d8ldf6t.jpg" alt="" class="img-responsive img-rounded center-block" /></a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a href="http://img15.deviantart.net/b02e/i/2015/055/3/d/ikan_pause_by_bnky-d8jcqdq.jpg" target="_blank"><img src="http://img15.deviantart.net/b02e/i/2015/055/3/d/ikan_pause_by_bnky-d8jcqdq.jpg" alt="" class="img-responsive img-rounded center-block" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><strong>Contact Me</strong></h2>
+                </div>
+                <div class="col-md-6 ">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4">
+                            <a href="https://www.facebook.com/bengkyramadan" class="btn btn-primary btn-lg btn-block" role="button" target="_blank"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> Facebook</a>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <a href="https://twitter.com/bengkytunes" class="btn btn-info btn-lg btn-block" role="button" target="_blank"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> Twitter</a>
+                        </div>
+                        <div class="col-sm-4 col-md-4">
+                            <a href="https://www.instagram.com/bnky/" class="btn btn-warning btn-lg btn-block" role="button" target="_blank"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid foot">
+        <div class="container">
+            <p><small>&copy; Bengky 2016</small></p>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
