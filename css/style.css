@@ -1,0 +1,23 @@
+.jumbotron,
+.foot {
+    background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/escheresque_ste.png");
+    background-attachment: fixed;
+    color: #FFF;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+}
+
+body {
+    padding-top: 51px;
+}
+
+.col-sm-6,
+.col-md-4 {
+    padding-bottom: 30px;
+}
+
+.container p {
+    padding: 50px 0;
+}
