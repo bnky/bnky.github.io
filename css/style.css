@@ -1,3 +1,9 @@
+@media (min-width: 960px) {
+  .container {
+    width: 960px;
+  }
+}
+
 .jumbotron,
 .foot {
     background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/escheresque_ste.png");
