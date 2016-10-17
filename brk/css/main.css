@@ -1,0 +1,22 @@
+body {
+    background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/robots.png");
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    color: white;
+}
+
+.pato {
+    padding-top: 20px;
+}
+
+.mato {
+    margin-top: -10px;
+}
