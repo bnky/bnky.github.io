@@ -1,5 +1,6 @@
 body {
     background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/robots.png");
+    background-attachment: fixed;
 }
 
 .container {
