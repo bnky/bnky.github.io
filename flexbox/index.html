@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" integrity="sha256-t2/7smZfgrST4FS1DT0bs/KotCM74XlcqZN5Vu7xlrw=" crossorigin="anonymous" />
+    <style type="text/css">
+        /*
+        * {
+            border: 1px solid;
+        }
+*/
+        
+        h3 {
+            color: #E74C3C;
+        }
+        
+        .wrapper {
+            max-width: 800px;
+            margin: auto;
+        }
+        
+        header,
+        nav,
+        section,
+        footer {
+            padding: 1em;
+        }
+        
+        header {
+            height: 256px;
+            background: #E74C3C;
+            color: #ECF0F1;
+        }
+        
+        nav,
+        footer {
+            height: 5em;
+            background: #2C3E50;
+            color: #ECF0F1;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            height: 5em;
+            width: 7em;
+            line-height: 5em;
+        }
+        
+        nav ul li:hover,
+        nav ul li:focus {
+            background: #E74C3C;
+        }
+        
+        section {
+            background: #ECF0F1;
+        }
+        
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .col-1 {
+            flex: 1;
+        }
+        
+        img {
+            border-radius: 0.3em;
+        }
+        
+        .center-text {
+            text-align: center;
+        }
+        
+        @media (max-width: 768px) {
+            .row {
+                display: block;
+            }
+            footer {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Hello World!</h1>
+            <h2>How do you do?</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <section>
+            <h3>Lorem Ipsum</h3>
+            <p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores tenetur et sed recusandae quasi magnam, accusamus quis doloremque cum praesentium magni culpa numquam saepe dolor impedit ab ut perspiciatis dolores.</span>
+                <span>Delectus eveniet ex quia quam, quisquam sunt qui! Repellat, qui, cumque. Quos rerum eum ullam, quasi odit, in voluptates totam veniam tempora cupiditate debitis expedita, veritatis illo a aut, rem!</span>
+                <span>Perferendis deserunt suscipit, accusantium vitae natus voluptatibus dolorem dolores vel. Quisquam dignissimos animi quo sint ab exercitationem ipsa eaque impedit repellat ex ea explicabo saepe, non eligendi minima neque voluptatibus?</span>
+                <span>Eaque veniam laudantium labore rerum perspiciatis magni quae, earum quaerat mollitia facere, doloribus repellat necessitatibus ullam, aperiam unde atque, sunt neque quia. Accusantium qui reiciendis error alias accusamus minus maxime?</span>
+            </p>
+            <div class="center-text">
+                <h3>Lorem Ipsum</h3>
+                <div class="row">
+                    <div class="col-1">
+                        <img src="http://placehold.it/250x150" alt="">
+                        <p><small>Lorem Ipsum Dolor Sit Amet</small></p>
+                    </div>
+                    <div class="col-1">
+                        <img src="http://placehold.it/250x150" alt="">
+                        <p><small>Lorem Ipsum Dolor Sit Amet</small></p>
+                    </div>
+                    <div class="col-1">
+                        <img src="http://placehold.it/250x150" alt="">
+                        <p><small>Lorem Ipsum Dolor Sit Amet</small></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p><small>&copy; BNKY 2016</small></p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
