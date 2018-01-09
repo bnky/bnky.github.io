@@ -1,0 +1,14 @@
+h2 {
+  font-weight: bold;
+  color: #ff53a5;
+}
+
+p {
+  color: #333333;
+}
+
+.bg-main {
+  background: url("https://media.melty.fr/article-3491953-fb-f1/esport-club-d-va-overwatch-heroes-of-the.jpg") no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+}
